@@ -5,7 +5,7 @@ const StyledDivider = styled.hr`
     border: none;
     height: 2px;
     background: #D2D2D2;
-    margin: 30% 0 5% 0;
+    margin: 30% 0  2% 0;
 `
 
 

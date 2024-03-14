@@ -1,3 +1,4 @@
+import styled from "styled-components";
 
 
 const StyledTitle = styled.h1`
@@ -12,9 +13,9 @@ const StyledTitle = styled.h1`
 
 `
 
-const Title = () => {
+const Title = ({title}) => {
     return ( 
-
+        <StyledTitle>{title}</StyledTitle>
      );
 }
  

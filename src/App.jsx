@@ -1,10 +1,15 @@
 import Navbar from "./components/Navbar"
+import { BrowserRouter } from "react-router-dom"
+import About from "./pages/About"
 
 function App() {
 
   return (
     <>
-    <Navbar/>
+    <BrowserRouter>
+      <Navbar/>
+      <About/>
+    </BrowserRouter>
     </>
   )
 }

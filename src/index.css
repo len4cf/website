@@ -8,7 +8,14 @@
 
 
 body {
+  
+  font-family: "Epilogue", sans-serif;
+  margin: 30px 20%;
 
-  margin: 30px 150px;
+}
 
+@media (max-width: 768px) {
+  body {
+    margin: 30px 10%;
+  }
 }
